@@ -16,7 +16,7 @@ body {
     height: 100vh;
     background-color: #fbfaff;
     position: relative;
-
+   overflow: hidden;
 }
 
 ::-webkit-scrollbar {
