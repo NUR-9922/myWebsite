@@ -1,5 +1,7 @@
 
 // gsap section 
+// home page section 1
+
 gsap.from("nav,nav .logo,nav ul li,#searchBox,.slide-bar-section-2-icons",{
     opacity:0,
     y:-100,
@@ -26,5 +28,19 @@ gsap.from(".line", {
     scale: 0,
     duration:0.5,
 });
+
+// home page section 2 
+
+gsap.from(".home-page-section-2 h1,.section-2-box", {
+    opacity: 0,
+    y:100,
+    duration:1,
+    stagger:0.5,
+    scrollTrigger: {
+        trigger: ".home-page-section-2",
+        start: "top 100%",
+       
+}});
+
 
 // gsap section end
