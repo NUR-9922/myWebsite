@@ -60,7 +60,7 @@ nav ul {
     list-style: none;
     gap: 20px;
     list-style: none;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: monospace;
 }
 
 nav ul li a {
@@ -68,7 +68,7 @@ nav ul li a {
     color: #fff;
     font-size: 12px;
     text-transform: uppercase;
-    font-weight: ;
+    font-weight: bold ;
 }
 
 nav ul li::after {
@@ -261,7 +261,7 @@ nav ul li:hover:after {
 
 .main-container-left-site {
     margin: 200px auto;
-    width: 600px;
+    width: 700px;
     height: 300px;
 }
 
