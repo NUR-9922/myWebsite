@@ -60,7 +60,7 @@ nav ul {
     list-style: none;
     gap: 20px;
     list-style: none;
-    font-family: cursive;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 nav ul li a {
@@ -68,7 +68,7 @@ nav ul li a {
     color: #fff;
     font-size: 12px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: ;
 }
 
 nav ul li::after {
@@ -174,16 +174,16 @@ nav ul li:hover:after {
 }
 
 .slide-bar-section-1 {
-    gap: 10px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .slide-bar-SubSection-1 {
     display: flex;
     align-items: center;
- 
+    flex-direction: column;
+    gap: 30px;
 }
-.slide-bar-SubSection-1 img {
+.slide-bar-SubSection-1 a img {
     width: 20px;
     height: 20px;
     margin: 3px auto;
@@ -194,7 +194,7 @@ nav ul li:hover:after {
     -ms-transition: all .3s;
     -o-transition: all .3s;
 }
-.slide-bar-SubSection-1 img:hover{
+.slide-bar-SubSection-1 a img:hover{
     transform: scale(1.3);
     -webkit-transform: scale(1.3);
     -moz-transform: scale(1.3);
@@ -217,11 +217,11 @@ nav ul li:hover:after {
     -o-transition: all .3s;
 }
 .slide-bar-section-2 i:hover{
-    transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    -moz-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    -o-transform: scale(1.3);
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .slide-bar-section-3{
     justify-content: space-around;
