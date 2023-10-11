@@ -4,9 +4,8 @@ gsap.from("nav,nav .logo,nav ul li,#searchBox,.slide-bar-section-2-icons",{
     duration:0.7,
     stagger:0.1,
 });
-gsap.from(".slde-bar,.slide-bar-SubSection-1,.slide-bar-SubSection-1 a",{
-    opacity:0,
-    x:-100,
-    duration:0.5,
-    stagger:0.5,
+gsap.from("#side-bar,.side-bar-SubSection-1",{
+    x:-300,
+    duration:1
+
 });
